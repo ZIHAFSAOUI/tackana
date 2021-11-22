@@ -1,0 +1,141 @@
+:root{
+    --clr-primary-300:#b58b3c ;
+    --clr-primary-400:#e4e3e1;
+
+    --clr-primary-100:#ffffff;
+    --clr-neutral-900:#2c2c2c;
+    --transition: all 0.7s ease;
+    --clr-gardient-1:linear-gradient(to right,#b3aca0,#b58b3c );
+    --ff-primary:"open sans", sans-sarif;
+    --ff-secondary:"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" 
+
+    
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    line-height:  1.5em;
+}
+body{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+h1,
+h2{
+    font-family:var(--ff-primary);
+    font-weight: 900;
+    line-height:1;
+    color: var(--clr-primary-100);
+}
+/* navbar */
+.navbar{
+    background-color: #fffff7;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+    
+}
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+nav li{
+    
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1rem;
+    
+
+    
+}
+nav  a{
+    text-decoration: none;
+    color: var(--clr-neutral-900);
+    font-family: var(--ff-secondary)
+    
+}
+
+.logo{
+    max-width:  8%;
+    top: 0%;
+    
+}
+img{
+    display: block;
+    max-width: 105%;
+}
+
+.items-important{
+    background: var(--clr-gardient-1);
+    border: rgb(0, 0, 0) solid ;
+    border-radius: 25px;
+   
+   
+}
+.items-important:hover{
+    background-color:#fdfbf4 ;
+}
+a:hover {
+    color: rgb(228, 225, 220);
+    
+}
+a:active{
+    color: rgb(144, 238, 238);
+}
+
+header h1 {
+    padding-top: 20%;
+}
+header p{
+    font-size: 55%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.banner{
+
+
+    background-image: url(https://live.staticflickr.com/7289/27744200332_3b37087b24_b.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    max-width: 100%;
+    background-size: 100%;
+    height: 90%;
+    background-position-y: center;
+    
+}
+
+@media (min-width:40em) {
+
+    .banner{
+
+        background-image: url(https://live.staticflickr.com/7289/27744200332_3b37087b24_b.jpg);
+        background-repeat: no-repeat;
+        max-width: 100%;
+        background-size: 100%;
+        height:90%;
+     
+    }
+    header,
+    section{
+    padding: 7rem 0 ;
+    }
+}
