@@ -1,7 +1,130 @@
 *{
-margin:0%;
-padding: 0%;
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    line-height:  1.5em;
 }
+body{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+hr{
+    max-width: 20%;
+    display: flex;
+    margin: auto;
+    border: none;
+    height: 5px;
+    background:linear-gradient(to right,#b3aca0,#b58b3c );
+}
+
+.container-layouts{
+    display: flex;
+    align-items: center;
+    
+}
+.layouts {
+    max-width:100% ;
+    height: auto;
+    border: #ffffff;
+}
+
+h1,
+h2{
+    font-family:var(--ff-primary);
+    font-weight: 900;
+    line-height:1;
+    color: var(--clr-primary-100);
+}
+h1,h2,p{
+    margin-bottom: 1em;
+}
+
+/* workin on navbar */
+.navbar{
+    background-color: #fcd268;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+
+}
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+
+}
+nav li{
+    
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1rem;
+    
+
+
+}
+nav  a{
+    text-decoration: none;
+    color: var(--clr-neutral-900);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.logo{
+    max-width:  8%;
+    top: 0%;
+
+}
+
+.items-important{
+    background: #fdd052;
+    border: rgb(0, 0, 0) solid ;
+    border-radius: 25px;
+   
+   
+}
+.items-important:hover{
+    background-color:#fddf8e ;
+}
+a:hover {
+    color: rgb(233, 146, 15);
+}
+a:active{
+    color: lightgreen;
+}
+
+header h1 {
+    padding-top: 20%;
+}
+header p{
+    font-size: 55%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.banner{
+    background-image: url(https://live.staticflickr.com/7289/27744200332_3b37087b24_b.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: 100%;
+    height:90%;
 
 
 main{
@@ -21,6 +144,11 @@ main{
     padding: 5px 35px 5px 35px;
     border-radius: 20px;
     background-color: rgb(105, 105, 180);
+}
+.contact{
+    border-style: solid;
+    background-color: aqua;
+    float: left;
 }
 
 
