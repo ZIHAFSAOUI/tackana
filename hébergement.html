@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="hébrgement.css">
+    <link rel="stylesheet" href="./css/hébrgement.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
@@ -12,14 +12,24 @@
     <title>site vitrine</title>
 </head>
 <body>
-<header>
-    <img src="" alt="">
-</header>
-<nav>
-    
-</nav>
+    <header class="banner">
+        <nav class="navbar">
+            <ul>
+                <li class="logo"><a href="./index1.html"><img src="./img/logo.png"></a></li>
+                <li class="items"><a href="#">Hebergement</a></li>
+                <li class="items"><a href="./activite.html">Activite</a></li>
+                <li class="items"><a href="">Contact</a></li>
+                <li class="items-important"><a href="./resrvation.html">Reserver</a></li>
+            </ul>
+        </nav>
+        <div class="container title text-center">
+            <h1>TACANA OCEAN</h1>
+            <P>WHERE YOUR EMOTIONS RELEASE</P>
+        </div>
+    </header>
 
 <div class="back">
+
 <h1>Hébergement</h1>
 
 <p>Jouissez de votre propre oasis marocaine le temps d'un séjour dans nos chambres de luxe et suites somptueuses.</p>
@@ -32,19 +42,22 @@
 </div>
 <div class="chambres">
     <div class="ocean">
-        <img src="img/chamber vue ocean.jpg" width="400" height="350">
-        <h3>Chambre vue ocean</h3>
-        <p>Grâce à une vue imprenable sur le bleu profond de l'océan, sur la forêt verdoyante, imprégnez-vous du spectacle majestueux de la nature, confortablement installé dans votre chambre.<br> Tout est réuni pour faire de vos vacances une véritable parenthèse de détente et de plaisir</p>
-        <button>RÉSERVEZ MAINTENANT</button>
+        
+        <img src="img/chamber vue ocean.jpg" width="700" height="550">
+    
+        <h3 class="vueo">Chambre vue ocean</h3>
+        <p class="vueo">Grâce à une vue imprenable sur le bleu profond de l'océan, sur la forêt verdoyante, imprégnez-vous du spectacle majestueux de la nature, confortablement installé dans votre chambre.<br> Tout est réuni pour faire de vos vacances une véritable parenthèse de détente et de plaisir</p>
+        <button class="vueo">RÉSERVEZ MAINTENANT</button>
+    
     </div>
     <div class="piscine">
-        <img src="img/chamber vue piscine.jpg" width="400" height="350">
+        <img src="img/chamber vue piscine.jpg" width="700" height="550">
         <h3>chambre vue piscine</h3>
         <p>La chambre vue pisine est spacieuse que paisuble. cette chambre raffinée est idéal pour les familles et les couples. <br>Le soir venu, admirez depuis votre chambre les eaux turquoise de la piscine du Grand Riad et les jardins immaculés du resort. Dégustez un thé à la menthe frais sur votre balcon ou votre terrasse, relaxez-vous dans votre baignoire ou blottissez-vous dans la douceur de vos draps en lin pour vous ressourcer après l'été à la consorté la consortée.</p>
         <button>RÉSERVEZ MAINTENANT</button>
     </div>
     <div class="jardin">
-        <img src="img/chamber vue jardin.jpg" width="400" height="350">
+        <img src="img/chamber vue jardin.jpg" width="700" height="550">
         <h3>Chambre vue jardin</h3>
         <p>les chambres vue jardin  distingue par la nature qui s'invite dans votre spacieuse chambre .<br>Les chambres associent design contemporain et touches traditionnelles pour un confort et un raffinement extrêmes.</p>
         <button>RÉSERVEZ MAINTENANT</button>
@@ -57,25 +70,25 @@
 </div>
     <div class="activité">
         <div class="yoga">
-            <img src="img/salle-yoga.jpg" width="400" height="350">
+            <img src="img/salle-yoga.jpg" width="700" height="550">
             <h3>salle pour yoga</h3>
             <p>Yoga vous préfériez l'effet énergisant de Power Yoga ou le côté apaisant du Yin Yoga, nos cours de yoga dispensés par des spécialistes vous permettront de vous ressourcer, esprit, corps et âme.</p>
             <button>DÉCOUVRIR PLUS</button>
         </div>
         <div class="valeur">
-            <img src="img/mettez-vous en valeur.jpg" width="400" height="350">
+            <img src="img/mettez-vous en valeur.jpg" width="700" height="550">
             <h3>mettez-vous en valeur</h3>
             <p>Mettez-vous en valeur <br>Faites-vous chouchouter des pieds à la tête dans notre salon bien-être dont les services de coiffure, de manucure et d'épilation vous aideront à vous sentir bien à l'intérieur comme à l'extérieur</p>
             <button>DÉCOUVRIR PLUS</button>
         </div>
         <div class="sport">
-            <img src="img/sale de sport.jpg" width="400" height="350">
+            <img src="img/sale de sport.jpg" width="700" height="550">
             <h3>Salle de sport</h3>
             <p>Centre de remise en forme tackana quitransformez votre routine sportive grâce aux installations de fitness ultra modernes, aux cours stimulants et aux coachs professionnels du Mazagan</p>
             <button>DÉCOUVRIR PLUS</button>
         </div>
         <div class="bain">
-            <img src="img/bain tradutionnel and spa.jfif" width="400" height="350">
+            <img src="img/bain tradutionnel and spa.jfif" width="700" height="550">
             <h3>bain tradutionnel and spa</h3>
             <p>Hummame spa Détendez-vous dans notre spa qui réunit ingrédients naturels marocains et grandes marques de beauté pour vous offrir un soin de rêve face au spectacle saisissant de l'océan</p>
             <button>DÉCOUVRIR PLUS</button>
@@ -89,9 +102,16 @@
     </div>
 
 
-<footer>
+    <footer>
+        <div class="footer-nav">
+            <ul class='adress'>
+                <li><a href="">Adresse:AV FAR BELYOUNECH<br>E-mail: takanaocean@takana@gmail.com </a></li>
+                <li><a href="">TEL.<br>+212 565 879 987<BR>+212 576 909 080</a></li>
+                <li><a href="">Contactez-nous sur <br><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
 
-</footer>
+    </footer>
     
 </body>
 </html>
