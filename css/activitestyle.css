@@ -211,6 +211,9 @@ section{
     font-size: 150%;
     padding-bottom: 20%;
 }
+.split h2{
+    text-align :center ;
+}
 .container{
     margin-inline: auto;
     width: min(90% , 70.5rem);
