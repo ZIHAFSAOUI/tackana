@@ -23,6 +23,7 @@ body{
     font-weight: 400;
     font-size: 1.3125rem;
     line-height: 1.6;
+    background-color: #b3aca0;
 }
 img{
     display: block;
@@ -169,8 +170,27 @@ a:active{
     display: grid;
     grid-template-columns: auto auto;
 }
+.piscine{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.jardin{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 .a{
-    margin-left: 450px;
+    margin-left: 150px;
+    width: 100%;
+    
+}
+.vocn{
+    border-radius: 35px;
+}
+.vjan{
+    border-radius: 35px;
+}
+.vpie{
+    border-radius: 35px;
 }
 .b{
     align-self: center;
@@ -178,6 +198,27 @@ a:active{
     margin-left: 200px;
     width: 50%;
 }
+.a1{
+    margin: 20px 300px 20px 1px;
+    width: 77%;
+}
+.b1{
+    align-self: center;
+    text-align: center;
+    margin-left: 150px;
+    width: 70%;
+}
+.a2{
+    margin: 50px 1px 30px 150px;
+    width: 100%;
+}
+.b2{
+    align-self: center;
+    text-align: center;
+    margin: 30px  100px 1px 270px;
+    width: 50%;
+}
+
 button{
     background-color: bisque;
     padding: 10px;
@@ -190,6 +231,52 @@ button{
     display: block;
     padding: 10px;
 }
+.activité{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+    
+}
+.sago{
+    margin: 50px 2px 10px 70px;
+    width: 85%;
+    border-radius: 35px;
+}
+.mvev{
+    margin: 50px 70px 10px 2px;
+    width: 85%;
+    border-radius: 35px;
+}
+.sds{
+    margin: 50px 2px 10px 70px;
+    width: 85%;
+    border-radius: 35px;
+}
+.btas{
+    margin: 50px 70px 10px 2px;
+    width: 85%;
+    border-radius: 35px;
+}
+.ple{
+    margin-top: 50px;
+    border-radius: 35px;
+}
+.chasse{
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center;
+    
+}
+.a5{
+    text-align: center;
+}
+.b5{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+ 
 .sejour p{
     font-size: 20px;
     width: 100%;

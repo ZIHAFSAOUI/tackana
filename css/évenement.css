@@ -23,12 +23,37 @@ body{
     font-weight: 400;
     font-size: 1.3125rem;
     line-height: 1.6;
+    background-color: #b3aca0;
+}
+img{
+    display: block;
+    max-width: 100%;
 }
 .responsive {
     width: 100%;
     max-width: 400px;
     height: auto;
 }
+hr{
+    max-width: 20%;
+    display: flex;
+    margin: auto;
+    border: none;
+    height: 5px;
+    background:linear-gradient(to right,#b3aca0,#b58b3c );
+}
+
+.container-layouts{
+    display: flex;
+    align-items: center;
+    
+}
+.layouts {
+    max-width:100% ;
+    height: auto;
+    border: #ffffff;
+}
+
 h1,
 h2{
     font-family:var(--ff-primary);
@@ -36,16 +61,20 @@ h2{
     line-height:1;
     color: var(--clr-primary-100);
 }
-/* navbar */
+h1,h2,p{
+    margin-bottom: 1em;
+}
+
+/* workin on navbar */
 .navbar{
-    background-color: #fffff7;
+    background-color: #fcd268;
     position: fixed;
     z-index: 1;
     width: 100%;
     top: 0;
     left: 0;
-    
-    
+
+
 }
 nav ul{
     list-style: none;
@@ -55,8 +84,8 @@ nav ul{
     justify-content: space-between;
     align-items: center;
     
-    
-    
+   
+
 }
 nav li{
     
@@ -65,49 +94,48 @@ nav li{
     font-size: 1rem;
     
 
-    
+
 }
 nav  a{
     text-decoration: none;
     color: var(--clr-neutral-900);
-    font-family: var(--ff-secondary)
-    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .logo{
     max-width:  8%;
     top: 0%;
-    
-}
-img{
-    display: block;
-    max-width: 105%;
+
 }
 
 .items-important{
-    background: var(--clr-gardient-1);
+    background: #fdd052;
     border: rgb(0, 0, 0) solid ;
     border-radius: 25px;
    
    
 }
 .items-important:hover{
-    background-color:#fdfbf4 ;
+    background-color:#fddf8e ;
 }
 a:hover {
-    color: rgb(228, 225, 220);
-    
+    color: rgb(233, 146, 15);
 }
 a:active{
-    color: rgb(144, 238, 238);
+    color: lightgreen;
 }
-
-header h1 {
+.titrrre h1 {
     padding-top: 20%;
+    text-align: center;
 }
-header p{
+.titrrre p{
     font-size: 55%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.titrrre{
+    padding-left: 70px;
 }
 
 .banner{
@@ -122,21 +150,83 @@ header p{
     background-position-y: center;
     
 }
-@media (min-width:40em) {
+.clients{
+    text-align: center;
+    margin: 25px 110px 30px 110px;
+    display: block;
+    padding: 10px;
 
-    .banner{
+}
+.clients h1{
+    font-size: 30px;
+}
+.clients p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.ocean {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.piscine{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.jardin{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.a{
+    margin-left: 150px;
+    width: 100%;
+    
+}
+.vocn{
+    border-radius: 35px;
+}
+.vjan{
+    border-radius: 35px;
+}
+.vpie{
+    border-radius: 35px;
+}
+.b{
+    align-self: center;
+    text-align: center;
+    margin-left: 200px;
+    width: 50%;
+}
+.a1{
+    margin: 20px 300px 20px 1px;
+    width: 77%;
+}
+.b1{
+    align-self: center;
+    text-align: center;
+    margin-left: 150px;
+    width: 70%;
+}
+.a2{
+    margin: 50px 1px 30px 150px;
+    width: 100%;
+}
+.b2{
+    align-self: center;
+    text-align: center;
+    margin: 30px  100px 1px 270px;
+    width: 50%;
+}
 
-        background-image: url(https://live.staticflickr.com/7289/27744200332_3b37087b24_b.jpg);
-        background-repeat: no-repeat;
-        max-width: 100%;
-        background-size: 100%;
-        height:90%;
-     
-    }
-    header,
-    section{
-    padding: 7rem 0 ;
-    }
+button{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 20px;
+}
+.sejour{
+    text-align: center;
+    margin: 25px 210px 30px 210px;
+    display: block;
+    padding: 10px;
 }
 footer ul{
     list-style: none;
