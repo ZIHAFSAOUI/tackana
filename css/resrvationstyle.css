@@ -51,7 +51,7 @@ h1,h2,p{
 
 /* navbar */
 .navbar{
-    background-color: #fffff7;
+    background-color: #fcd268;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -75,7 +75,7 @@ nav li{
     
     padding: 0.5em;
     margin: 0.5em;
-    font-size: 1,25rem;
+    font-size: 1.1rem;
     
 
     
@@ -94,11 +94,11 @@ nav  a{
 }
 img{
     display: block;
-    max-width: 105%;
+    max-width: 100%;
 }
 
 .items-important{
-    background: var(--clr-gardient-1);
+    background: #fcd268;
     border: rgb(0, 0, 0) solid ;
     border-radius: 25px;
    
@@ -133,6 +133,7 @@ header p{
     background-size: 100%;
     height: 90%;
     background-position-y: center;
+   
     
 }
 
@@ -145,6 +146,7 @@ header p{
         max-width: 100%;
         background-size: 100%;
         height:90%;
+        
      
     }
     header,
@@ -350,10 +352,13 @@ section{
 
 footer{
     background: var(--clr-neutral-900);
+    margin: 0%;
+    padding: 0%;
 }
 footer ul{
     list-style: none;
-    padding: 0%;
+    margin: 0%;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -373,8 +378,7 @@ footer a{
 
 }
 .footer-nav{
-    padding: 40px ;
-    
+    padding-bottom: 70px ;
     width: 100%;
     background: var(--clr-neutral-900);
 
