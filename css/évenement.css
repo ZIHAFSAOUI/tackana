@@ -168,6 +168,14 @@ a:active{
     display: grid;
     grid-template-columns: auto auto;
 }
+@media (max-width:425) {
+    .ocean {
+        display: grid;
+        grid-template-rows: auto auto;
+    } 
+
+    
+}
 .piscine{
     display: grid;
     grid-template-columns: auto auto;
@@ -203,7 +211,7 @@ a:active{
 .b1{
     align-self: center;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 130px;
     width: 70%;
 }
 .a2{
