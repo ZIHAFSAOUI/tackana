@@ -125,17 +125,14 @@ a:hover {
 a:active{
     color: lightgreen;
 }
-.titrrre h1 {
-    padding-top: 20%;
+.container h1 {
     text-align: center;
+
 }
-.titrrre p{
-    font-size: 55%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.container p{
     text-align: center;
-}
-.titrrre{
-    padding-left: 70px;
+    margin-top: -30px;
+    padding-bottom: 30px;
 }
 
 .banner{
@@ -270,5 +267,162 @@ footer a{
     display: flex;
     flex-direction: row;
     flex-basis: 35%;
+
+}
+@media only screen and (max-width: 1080px) and (min-width: 300px) {
+    .clients{
+        width: 100%;
+        text-align: center;
+        min-width: 50px;
+    }
+    .chambre{
+        display: flex;
+        flex-direction: column;
+        min-width: 50px;
+    }
+    
+    .ocean{
+        display: flex;
+        flex-direction: column;
+        min-width: 50px;
+        
+    }
+    .piscine{
+        display: flex;
+        flex-direction: column-reverse;
+        min-width: 50px;
+    }
+    .jardin{
+        display: flex;
+        flex-direction: column;
+        min-width: 50px;
+    }
+    .sejour{
+        min-width: 50px;
+    }
+    ul{
+        width: 100%;
+    }
+    .clients{
+        text-align: center;
+        
+        display: block;
+        padding: 10px;
+        margin-left: 45px;
+        width: 85%;
+    
+    }
+    .a2{
+        text-align: center; 
+        display: block;
+        padding: 10px;
+    }
+        .a{
+            margin: 10px 10px 10px 10px ;
+        width: auto;
+            
+        }
+        .b{
+            align-self: center;
+            text-align: center;
+            margin: 10px 10px 10px 10px ;
+        width: auto;
+        }
+    .a1{
+        margin: 10px 10px 10px 10px ;
+        width: auto;
+    }
+    .b1{
+        align-self: center;
+            text-align: center;
+            margin: 10px 10px 10px 10px ;
+        width: auto;
+    }
+    .a2{
+        margin: 10px 10px 10px 10px ;
+        width: auto;
+    }
+    .b2{
+        align-self: center;
+            text-align: center;
+            margin: 10px 10px 10px 10px ;
+            width: auto;
+    }
+    .sejour{
+        margin: 10px 10px 10px 10px ;
+        width: auto;
+    }
+    
+    
+    
+
+}
+@media only screen and (max-width: 480px) and (min-width: 300px) {
+
+   .adress{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+   }
+   
+   .navbar ul li{
+       font-size: 10px;
+   }
+   .sds{
+    margin: 10px 5px 10px 5px ;
+width: auto;
+    
+}
+   .clients{
+    text-align: center;
+    
+    display: block;
+    padding: 10px;
+    margin: 10px 5px 10px 5px ;
+    width: auto;
+
+}
+.a2{
+    text-align: center; 
+    display: block;
+    padding: 10px;
+}
+    .a{
+        margin: 10px 5px 10px 5px ;
+    width: auto;
+        
+    }
+    .b{
+        align-self: center;
+        text-align: center;
+        margin: 10px 5px 10px 5px ;
+    width: auto;
+    }
+.a1{
+    margin: 10px 5px 10px 5px ;
+    width: auto;
+}
+.b1{
+    align-self: center;
+        text-align: center;
+        margin: 10px 5px 10px 5px ;
+    width: auto;
+}
+.a2{
+    margin: 10px 5px 10px 5px ;
+    width: auto;
+}
+.b2{
+    align-self: center;
+        text-align: center;
+        margin: 10px 5px 10px 5px ;
+        width: auto;
+}
+.sejour{
+    margin: 10px 5px 10px 5px ;
+    width: auto;
+}
+
+
 
 }
