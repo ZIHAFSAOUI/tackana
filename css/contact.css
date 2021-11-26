@@ -206,7 +206,42 @@ main{
     border-radius: 20px;
     background-color: rgb(105, 105, 180);
 }
+footer ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    border: rgb(20, 20, 18) 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 
+}
+footer li{
+ 
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1rem;
+    list-style: none;
+
+}
+footer a{
+    text-decoration: none;
+    color: var(--clr-primary-100);
+
+}
+.footer-nav{
+    margin-inline: auto;
+    width: 100%;
+    background: var(--clr-neutral-900);
+
+}
+.adress{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 35%;
+
+}
 @media (max-width:600px) and (min-width: 300px) {
 
     
